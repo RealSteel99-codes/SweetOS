@@ -1,0 +1,11 @@
+NAME="SweetOS"
+PRETTY_NAME="SweetOS"
+ID=sweetos
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;255;150;180"
+HOME_URL="https://github.com/RealSteel99-codes/SweetOS"
+DOCUMENTATION_URL="https://github.com/RealSteel99-codes/SweetOS/blob/main/docs.md"
+SUPPORT_URL="https://github.com/RealSteel99-codes/SweetOS/discussions"
+BUG_REPORT_URL="https://github.com/RealSteel99-codes/SweetOS/issues"
+LOGO=sweetos-logo

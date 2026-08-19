@@ -1,0 +1,169 @@
+# ── Base system ────────────────────────────────────────────────
+base
+base-devel
+linux-cachyos
+linux-cachyos-headers
+linux-firmware
+linux-firmware-marvell
+sof-firmware
+mkinitcpio
+mkinitcpio-archiso
+
+# ── CPU microcode ─────────────────────────────────────────────
+amd-ucode
+intel-ucode
+
+# ── Boot ──────────────────────────────────────────────────────
+efibootmgr
+grub
+edk2-shell
+refind
+os-prober
+
+# ── Disk / filesystem tools ───────────────────────────────────
+btrfs-progs
+e2fsprogs
+dosfstools
+exfatprogs
+ntfsprogs
+gptfdisk
+parted
+cryptsetup
+lvm2
+squashfs-tools
+
+# ── Networking ────────────────────────────────────────────────
+networkmanager
+network-manager-applet
+openssh
+iwd
+wpa_supplicant
+wireless-regdb
+dhcpcd
+iw
+
+# ── Core utils ────────────────────────────────────────────────
+sudo
+git
+curl
+wget
+rsync
+nano
+vim
+less
+man-db
+man-pages
+bash-completion
+reflector
+arch-install-scripts
+
+# ── Better CLI defaults ───────────────────────────────────────
+bat
+eza
+fd
+ripgrep
+fastfetch
+btop
+unzip
+p7zip
+tmux
+
+# ── Shell ─────────────────────────────────────────────────────
+zsh
+grml-zsh-config
+fish
+
+# ── Wayland / display ─────────────────────────────────────────
+wayland
+xorg-xwayland
+polkit
+polkit-gnome
+xdg-utils
+xdg-desktop-portal-hyprland
+
+# ── Hyprland stack ────────────────────────────────────────────
+hyprland
+waybar
+rofi-wayland
+dunst
+swww
+hyprlock
+hypridle
+wlogout
+grim
+slurp
+cliphist
+wl-clipboard
+hyprpicker
+
+# ── Terminal ──────────────────────────────────────────────────
+kitty
+foot-terminfo
+
+# ── Audio ─────────────────────────────────────────────────────
+pipewire
+pipewire-audio
+pipewire-pulse
+pipewire-alsa
+wireplumber
+pavucontrol
+
+# ── Fonts ─────────────────────────────────────────────────────
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-emoji
+ttf-liberation
+
+# ── Apps ──────────────────────────────────────────────────────
+thunar
+gvfs
+firefox
+file-roller
+
+# ── Performance ───────────────────────────────────────────────
+ananicy-cpp
+irqbalance
+thermald
+zram-generator
+
+# ── VM guest support (for QEMU testing) ───────────────────────
+qemu-guest-agent
+open-vm-tools
+hyperv
+
+# Gaming
+steam
+gamemode
+lib32-gamemode
+mangohud
+lib32-mangohud
+wine-staging
+winetricks
+protontricks
+lutris
+
+# Extra Utilities
+sshfs
+rsync
+timeshift
+gnome-disk-utility
+gparted
+stacer
+bleachbit
+code
+github-cli
+mpv
+gimp
+
+# Network extras
+nm-connection-editor
+bluez
+bluez-utils
+firewalld
+firewall-applet
+
+
+
+# ── Installer ─────────────────────────────────────────────────
+calamares
+syslinux
