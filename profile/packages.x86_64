@@ -167,3 +167,4 @@ firewall-applet
 # ── Installer ─────────────────────────────────────────────────
 calamares
 syslinux
+grub
